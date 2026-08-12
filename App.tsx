@@ -12,6 +12,7 @@ export default function App() {
      placeholder="Player 1 Name"
      value={player1}
      onChangeText={setPlayer1}
+     style= {styles.input}
      />
 
      <TextInput
